@@ -16,6 +16,6 @@ for age in ages:
         price = 1390
         summ += price
         print ("Цена билета = ", price)
-print(summ if ticket <= 3 else summ*0.9)
+print(summ if ticket <= 3 else summ*0.9, "- сумма к оплате")
 
 
